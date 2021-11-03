@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# [Live App Link](https://widgets-five-xi.vercel.app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app implementing navigation using React Router.
 
-## Available Scripts
+![accordion](public/accordion.png)
+![wiki-search](public/wiki-search.png)
+![dropdown](public/dropdown.png)
+![translate](public/translate.png)
+
+## Tools Used
+
+- react-js [[Ref]](https://reactjs.org/docs/getting-started.html)
+- Wikipedia API [[Ref]](https://en.wikipedia.org/w/api.php)
+- Google Cloud Translation API [[Ref]](https://cloud.google.com/translate/docs/reference/rest/v2/translate)
+- Semantics UI (_for CSS_) [[Ref]](https://semantic-ui.com/introduction/getting-started.html)
+
+## Running the project
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. The first widget shows a set of questions. Click on any question to expand.
+2. The second widget shows a Wikipedia search. Enter any term in the search field to get top 10 results from Wikipidea. Hit 'Go' to visit subsequent Wikipidea pages.
+3. The third widget shows a dropdown list that displays a list of colors. Selecting a relevant color changes the menu bar's background color.
+4. The fourth widget has Google translate functionality. Enter a text to be translated, and choose a language from the dropdown. The translated text is shown in the 'Output'.
 
-### `npm run build`
+#### Credits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Stephen Grider [Modern React with Redux](https://www.udemy.com/course/react-redux/)
